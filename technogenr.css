@@ -1,0 +1,54 @@
+.container{
+    border-color: orange;  
+    border-width: 5px;  
+    border-style: inset;  
+}
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 200px;
+  }
+  
+/* Add some margins for each label */
+.form-inline label {
+    margin: 5px 10px 5px 0;
+}
+
+label{
+    margin: 5px 10px 5px 0;
+}
+  
+/* Style the input fields */
+.form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+#dotted {
+    border:0;
+    border-bottom: 2px dotted;
+    margin: 5px 10px 5px 0;
+    width: 6%;
+}
+
+h3{
+    color: blue;
+    margin-left: 200px;
+}
+
+.std_dts{
+    margin-left: 200px;
+}
+
+.std_dts input{
+    outline: none;
+}
+
+.form-table input{
+    outline: none;
+    border-style: none;
+}
