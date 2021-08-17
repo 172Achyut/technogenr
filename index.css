@@ -52,3 +52,11 @@ h3{
     outline: none;
     border-style: none;
 }
+
+#non{
+    border:0;
+    /* border-bottom: 2px dotted; */
+    margin: 5px 10px 5px 0;
+    outline: none;
+    width: 6%;
+}
