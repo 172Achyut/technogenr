@@ -1,5 +1,5 @@
 .container{
-    border-color: orange;  
+    border-color: red;  
     border-width: 5px;  
     border-style: inset;  
 }
@@ -60,3 +60,14 @@ h3{
     outline: none;
     width: 6%;
 }
+h1 {
+    margin: 0;
+    line-height: 2em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    background: linear-gradient(to right, #193b52 50%, #1cb4cf 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
