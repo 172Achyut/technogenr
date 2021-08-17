@@ -1,7 +1,8 @@
 .container{
     border-color: red;  
     border-width: 5px;  
-    border-style: inset;  
+    border-style: double;  
+    box-shadow:  2.5px 2.5px black;
 }
 .form-inline {
     display: flex;
@@ -60,14 +61,11 @@ h3{
     outline: none;
     width: 6%;
 }
-h1 {
+
+.header{
     margin: 0;
     line-height: 2em;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 50px;
-    background: linear-gradient(to right, #193b52 50%, #1cb4cf 50%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+}
